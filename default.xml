@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com" name="github"/>
+  <remote fetch="http://git.openembedded.org" name="oe"/>
+  
+  <default remote="github"/>
+  
+  <project name="bitbake" path="layers/openembedded-core/bitbake" remote="oe" revision="b4117231bf070703b9375af4411bcd160e07fdae"/>
+  <project name="blithe2015/meta-exynos" path="layers/meta-exynos" remote="github" />
+  <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="d12c44df66ca065a1526c7d6885e726cf50aab46"/>
+</manifest>
