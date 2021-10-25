@@ -6,6 +6,6 @@
   <default remote="github"/>
   
   <project name="bitbake" path="layers/openembedded-core/bitbake" remote="oe" revision="b4117231bf070703b9375af4411bcd160e07fdae"/>
-  <project name="blithe2015/meta-exynos" path="layers/meta-exynos" remote="github"/>
+  <project name="blithe2015/meta-exynos" path="layers/meta-exynos" remote="github" revision="main"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="d12c44df66ca065a1526c7d6885e726cf50aab46"/>
 </manifest>
