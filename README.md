@@ -9,7 +9,7 @@
 
 ## Use Yocto
 
-1. . layers/openembedded-core/oe-init-build-env
+1. `. layers/openembedded-core/oe-init-build-env` OR `source layers/openembedded-core/oe-init-build-env`
 2. bitbake-layers add-layer $BUILDDIR/../layers/meta-exynos
 3. vim $BUILDDIR/conf/local.conf<br>
     `# MCHINE ??= "qemux86-64"`<br>
